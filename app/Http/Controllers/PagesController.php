@@ -13,13 +13,13 @@ class pagesController extends Controller
     }
 
     public function about(){
-      $title = 'Välkommen om oss';
+      $title = 'Om oss';
       return view('pages.about')->with('title', $title);
     }
 
     public function services(){
       $data = array(
-        'title'=> 'Services2',
+        'title'=> 'Tjänster',
         'services'=> ['web design', 'Programming', 'seo']
 
       );
