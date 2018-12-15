@@ -4,7 +4,7 @@
   <div class="jumbotron text-center">
     <h1>{{$title}}</h1>
    
-    <p>Min första Laravel App</p>
+    <p>Logga in och dela med dig av dina smultronställen </p>
     <p><a class="btn btn-primary btn-lg" href="/login" role="button">Logga in</a> 
       <a class="btn btn-success btn-lg" href="/login" role="button"><i class="fas fa-user-alt"></i> Registrera dig</a></p>
   </div>
