@@ -15,6 +15,9 @@
       <li class="nav-item">
         <a class="nav-link" href="/services">Tjänster</a>
       </li>
+      <li class="nav-item">
+          <a class="nav-link" href="/posts">Blogg</a>
+        </li>
     </ul>
   </div>
 </div>
