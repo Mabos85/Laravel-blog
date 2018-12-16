@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['body_class' => 'body__services'])
 
 @section('content')
   <h1>{{$title}}</h1>

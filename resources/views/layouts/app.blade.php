@@ -15,10 +15,16 @@
 
 </head>
 
-<body>
+<body class="{{ !empty($body_class) ? $body_class : '' }}">
   @include('inc.navbar')
     <div class="container">
+      @include('inc.messages')
       @yield('content')
     </div>
+    
+    <script src="{{ URL::asset('../vendor/unisharp/laravel-ckeditor/ckeditor.js') }}"></script> 
+    <script> 
+      CKEDITOR.replace( 'article-ckeditor' ); 
+    </script>
 </body>
 </html>

@@ -1,5 +1,4 @@
-@extends('layouts.app')
-
+@extends('layouts.app', ['body_class' => 'body__home'])
 @section('content')
   <div class="jumbotron text-center">
     <h1>{{$title}}</h1>
