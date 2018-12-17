@@ -1,14 +1,24 @@
-.navbar { margin-bottom: 1rem;} 
-.card-body { margin-bottom: 1rem;}
+.navbar { 
+    margin-bottom: 1rem;
+} 
+.card-body { 
+    margin-bottom: 1rem;
+}
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 1);
+}
+.btn { 
+    margin:10px 0;
 }
 body.body__home{ 
     background: url('/images/bg.jpg') no-repeat center center/cover;
     height: 100vh;
  
 } 
-
+.table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
 .jumbotron{
 
     padding: 4rem 0rem;
